@@ -8,7 +8,7 @@ Library    OperatingSystem
 ${ENV_URL}    %{ENV_URL=https://staging.convr.io/}
 ${url}    ${ENV_URL}
 ${BROWSER}    chromium
-${HEADLESS}    False
+${HEADLESS}    True
 ${Video_Dir}    ../results/videos
 
 *** Keywords ***
